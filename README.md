@@ -1,3 +1,16 @@
+command : -
+
+sudo docker run -d --name sonarqube -p 9000:9000 sonarqube:latest
+
+
+
+
+
+
+
+
+
+
 ✅ Breakdown:
 Part	Meaning
 sudo	Runs the command as a superuser (needed if your user doesn't have Docker permissions).
